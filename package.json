@@ -9,17 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sahil-Sayyad/Placement_Cell.git"
+    "url": "git+https://github.com/shreeshb12/placement-cell.git"
   },
   "keywords": [
     "placementcellapp"
   ],
-  "author": "Sahil Sayyad",
+  "author": "Shreesh Badiger",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Sahil-Sayyad/Placement_Cell/issues"
+    "url": "https://github.com/shreeshb12/placement-cell/issues"
   },
-  "homepage": "https://github.com/Sahil-Sayyad/Placement_Cell#readme",
+  "homepage": "https://github.com/shreeshb12/placement-cell#readme",
   "dependencies": {
     "@babel/core": "^7.22.9",
     "@babel/preset-env": "^7.22.9",
