@@ -15,12 +15,15 @@ const customMware = require("./config/middleware");
 //for parsing the form data
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-//serving the static files
-app.use(express.static("./public"));
 
 //set up the view engine
 app.set("view engine", "ejs");
 app.set("views", "./views");
+
+//serving the static files
+app.use(express.static("./public"));
+
+
 //handle session cookie
 app.use(
   session({
