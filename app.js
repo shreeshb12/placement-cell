@@ -3,6 +3,7 @@ require("dotenv").config();
 const cookieParser = require("cookie-parser");
 const express = require("express");
 const app = express();
+const path =require('path');
 const port = process.env.PORT || 8000;
 require("./config/mongoose");
 const session = require('express-session');
@@ -18,7 +19,7 @@ app.use(cookieParser());
 
 //set up the view engine
 app.set("view engine", "ejs");
-app.set("views", "./views");
+app.set("views", path.join(__dirname, "views"));
 
 //serving the static files
 app.use(express.static("./public"));
